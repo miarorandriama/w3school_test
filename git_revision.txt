@@ -36,5 +36,4 @@ pull=fetch+merge
 git fetch {remote_name}: to get all the change history of a tracked branch/repo
 git pull {remoteRepo/branch}
 
-Random text 22
 
