@@ -42,4 +42,6 @@ git revert HEAD~x: x refers to the number of time to go back from the last commi
 git reset {commithash}: to get the commitHash use git log --oneline
 to undo reset, use the same commit hash of the deleted commit
 
+git commit --amend -m "...": change the last commit by adding the staged file in it and make it a new commit
+
 
