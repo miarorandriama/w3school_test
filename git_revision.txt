@@ -28,7 +28,8 @@ git merge {branch_name}: to merge the branch with the main one
 
 Create a repo
 
-git remote add origin {link_to_the_repo}: to connect a remote repo
+git remote add {repoName} {link_to_the_repo}: to connect a remote repo
+git remote set-url {repoName} {url}: set the url of the specified repo to the given one
 
 git push -u origin {local_branch_name}: push the specified branch to the remote repo
 
