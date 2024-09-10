@@ -1,0 +1,38 @@
+*****GIT**********
+
+sudo apt install git
+
+git init: create a git repo
+
+git status: use -short: ?? untracked files, A files added, M modified files, Deleted files
+	   
+git add file.ext: staging
+	--all
+	
+git commit -m "message": save point with a message to keep track of changes made. Always include a message while commiting.
+git commit -a:  The -a option will automatically stage every changed, already tracked file.
+
+git log: to view the history of commits
+git {command} --help
+git help --all
+
+git branch {branch_name}: to create a branch
+git branch: to see branches. -a to see remote branches
+git branch -d {branch_name}: to delete a branch
+git checkout {branch_name}: to switch to the specified branch
+git checkout -b {branch_name}: to create a new branch and move to this one
+git merge {branch_name}: to merge the branch with the main one
+
+
+*****GITHUB**********
+
+Create a repo
+
+git remote add origin {link_to_the_repo}: to connect a remote repo
+
+git push -u origin {local_branch_name}: push the specified branch to the remote repo
+
+pull=fetch+merge
+git fetch {remote_name}: to get all the change history of a tracked branch/repo
+git pull {remoteRepo/branch}
+
