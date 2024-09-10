@@ -36,7 +36,10 @@ pull=fetch+merge
 git fetch {remote_name}: to get all the change history of a tracked branch/repo
 git pull {remoteRepo/branch}
 
-git revert HEAD --no-edit: revert to the last  commit. --no-edit skips the commit message editor
+git revert HEAD --no-edit: use a previous commit as a new one. --no-edit skips the commit message editor
 git revert HEAD~x: x refers to the number of time to go back from the last commit
+
+git reset {commithash}: to get the commitHash use git log --oneline
+to undo reset, use the same commit hash of the deleted commit
 
 
