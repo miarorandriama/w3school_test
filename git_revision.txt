@@ -12,7 +12,7 @@ git add file.ext: staging
 git commit -m "message": save point with a message to keep track of changes made. Always include a message while commiting.
 git commit -a:  The -a option will automatically stage every changed, already tracked file.
 
-git log: to view the history of commits
+git log: to view the history of commits. --oneline just one line
 git {command} --help
 git help --all
 
@@ -36,6 +36,7 @@ pull=fetch+merge
 git fetch {remote_name}: to get all the change history of a tracked branch/repo
 git pull {remoteRepo/branch}
 
+git revert HEAD --no-edit: revert to the last  commit. --no-edit skips the commit message editor
+git revert HEAD~x: x refers to the number of time to go back from the last commit
 
-touch .gitignore
 
